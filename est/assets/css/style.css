@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url("../font/Yekan.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: Yekan;
+    font-size: 16px;
+    direction: rtl;
+    text-align: right;
+}
+
+body {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.jb {
+    width: 80%;
+    margin-right: 10%;
+}
+
+.wrapperImage {
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapperText {
+	position: absolute;
+    bottom: 42px;
+	opacity: 0;
+    width: 270px;
+    line-height: 190px;
+    text-align: center;
+    background: #000000;
+	transition: 0.6s;
+}
+
+.wrapperImage:hover .wrapperText {
+    opacity: 0.8;
+	transition: 0.6s;
+	background: #003980;
+}
